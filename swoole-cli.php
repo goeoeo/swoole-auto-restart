@@ -118,13 +118,13 @@ class SwooleCli
                     $mic=$this->microtime();
                     //防止频繁重启
                     if($mic-$this->lastStartTime>self::RESTART_INTERVAL){
-                        echo '服务器重启中...'.PHP_EOL;
                         $this->restart();
                         $this->lastStartTime=$mic;
                     }
                 }
-            });
 
+            });
+            $this->restart();
         }
 
     }
@@ -136,6 +136,8 @@ class SwooleCli
     public function restart()
     {
         $this->swooleServerPid && swoole_process::kill($this->swooleServerPid);
+
+        echo '服务器重启中...'.PHP_EOL;
 
         //开一个进程来进行重启
         $process = new swoole_process(function(swoole_process $worker){
@@ -167,4 +169,5 @@ class SwooleCli
  $swooleCli=new SwooleCli();
 
  //echo $swooleCli->dirNum;
+
 
