@@ -27,7 +27,10 @@ $ composer require phpdic/swoole-auto-restart -vvv
 
 require './vendor/autoload.php';
 
-$a = new \Phpdic\SwooleAutoRestart\swooleAutoRestart(__DIR__, '/bin/echo ok');
+//启动服务的脚本,修改成你自己的
+$startServiceCommand='/usr/bin/php easyswoole start';
+
+$a = new \Phpdic\SwooleAutoRestart\swooleAutoRestart(__DIR__, $startServiceCommand);
 $a->listen();
 ```
 2.执行你刚刚创建的这个脚本
