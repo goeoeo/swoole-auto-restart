@@ -1,0 +1,20 @@
+{
+    "name": "phpdic/swoole-auto-restart",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenyu",
+            "email": "977564830@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Phpdic\\SwooleAutoRestart\\": "./src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
