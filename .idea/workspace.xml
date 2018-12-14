@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2871b868-6155-471c-ae14-9b0c4939a90d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/DependsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swooleAutoRestart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/swooleAutoRestartTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swooleAutoRestart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/swooleAutoRestart.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,25 +23,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="php" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="19" />
-          <entry key="php" value="1237" />
+          <entry key="md" value="321" />
+          <entry key="php" value="1328" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="2" />
           <entry key="JSON" value="19" />
-          <entry key="PHP" value="1237" />
+          <entry key="Markdown" value="319" />
+          <entry key="PHP" value="1328" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -65,16 +67,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/swooleAutoRestart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="182" column="72" selection-start-line="182" selection-start-column="72" selection-end-line="182" selection-end-column="72" />
+            <state relative-caret-position="378">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="e#6#79#0#PHP" expanded="true" />
                 <element signature="e#118#175#0#PHP" expanded="true" />
                 <element signature="e#1698#2110#0#PHP" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="508">
+                <caret line="45" selection-start-line="45" selection-end-line="45" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -151,6 +165,7 @@
         <option value="$PROJECT_DIR$/tests/swooleAutoRestartTest.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/swooleAutoRestart.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -221,18 +236,18 @@
       <option name="presentableId" value="Default" />
       <updated>1544689035091</updated>
       <workItem from="1544689036320" duration="1105000" />
-      <workItem from="1544751623959" duration="10025000" />
+      <workItem from="1544751623959" duration="11275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11130000" />
+    <option name="totallyTimeSpent" value="12380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -311,13 +326,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/swooleAutoRestart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="182" column="72" selection-start-line="182" selection-start-column="72" selection-end-line="182" selection-end-column="72" />
+        <state relative-caret-position="378">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="e#6#79#0#PHP" expanded="true" />
             <element signature="e#118#175#0#PHP" expanded="true" />
             <element signature="e#1698#2110#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="508">
+            <caret line="45" selection-start-line="45" selection-end-line="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

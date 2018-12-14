@@ -9,7 +9,6 @@ namespace Phpdic\SwooleAutoRestart;
 
 
 use Phpdic\SwooleAutoRestart\Exceptions\DependsException;
-use Phpdic\SwooleAutoRestart\Exceptions\Exception;
 use Phpdic\SwooleAutoRestart\Exceptions\InvalidArgumentException;
 
 class swooleAutoRestart
@@ -36,11 +35,11 @@ class swooleAutoRestart
 
     /**
      * swooleAutoRestart constructor.
-     * @param string $rootDir
-     * @param string $startServerCommand
-     * @param array $notCheckDir
-     * @param int $restartInterval
-     * @throws DependsException
+     * @param string $rootDir 需要监听的项目根目录
+     * @param string $startServerCommand 启动swoole服务器的命令
+     * @param array $notCheckDir 配置不需要监听的目录
+     * @param int $restartInterval 重启间隔
+     * @param bool $showDetail 是否展示详细信息
      * @throws InvalidArgumentException
      */
     public function __construct(string $rootDir,string $startServerCommand,array $notCheckDir=[],$restartInterval=1000,$showDetail=false)
