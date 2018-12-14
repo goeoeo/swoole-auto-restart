@@ -1,6 +1,6 @@
 {
     "name": "phpdic/swoole-auto-restart",
-    "description": "Package description here.",
+    "description": "swoole development, automatically restarting the service after modifying the code.",
     "license": "MIT",
     "authors": [
         {
