@@ -48,7 +48,7 @@ swooleAutoRestart构造函数注解
     public function __construct(string $rootDir,string $startServerCommand,array $notCheckDir=[],$restartInterval=1000,$showDetail=false)
     {
 ```
-notCheckDir参数可以配置不需要修改的目录,例如,我的项目是laravel框架
+notCheckDir参数可以配置不需要监听的目录,例如,我的项目是laravel框架,设置如下:
 ```php
 $notCheckDir=['/bootstrap','/storage','/tests']
 ```
