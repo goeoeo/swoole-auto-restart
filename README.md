@@ -18,7 +18,7 @@
 ## 安装
 
 ```shell
-$ composer require phpdic/swooleAutoRestart -vvv
+$ composer require phpdic/swoole-auto-start -vvv
 ```
 
 ## 用法
